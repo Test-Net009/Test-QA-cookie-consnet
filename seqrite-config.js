@@ -3,7 +3,7 @@ let userLang = (navigator.language || (navigator).userLanguage || 'en').split('-
 console.log("Browser Language Code: ", userLang);
 window.klaroConfig = {
   "consentManagerId": "6a21304d05048c07fcb6834b",
-  "uuid": "d79812b7-5f53-4c76-8811-40f32fc8ed62",
+  "uuid": "0402a5d9-31f9-46dd-abe6-0f9d71c04c50",
   "domain": "https://starhealth.pre-dataprivacy.com/cmapi",
   "version": 1,
   "elementID": "SEQRITE",
