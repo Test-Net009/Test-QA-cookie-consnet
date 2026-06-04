@@ -3,7 +3,7 @@ let userLang = (navigator.language || (navigator).userLanguage || 'en').split('-
 console.log("Browser Language Code: ", userLang);
 window.klaroConfig = {
   "consentManagerId": "6a21304d05048c07fcb6834b",
-  "uuid": "0402a5d9-31f9-46dd-abe6-0f9d71c04c50",
+  "uuid": "5a6c780a-6989-4a9a-bbca-03a5e9beaf0f",
   "domain": "https://starhealth.pre-dataprivacy.com/cmapi",
   "version": 1,
   "elementID": "SEQRITE",
@@ -11,7 +11,7 @@ window.klaroConfig = {
   "storageMethod": "cookie",
   "storageName": "https://cookie-consent-enforcementqa.netlify.app/",
   "cookieExpiresAfterDays": 365,
-  "default": false,
+  "default": true,
   "mustConsent": false,
   "acceptAll": true,
   "hideDeclineAll": false,
@@ -238,6 +238,116 @@ window.klaroConfig = {
         "description": "اتھ زمرس منٛز چھ کوکیز شأمل یم نہٕ گوڑنتھ طے شدٕ زمرن منٛز فٹ چھ آسان مگر ویب سائٹچ کنہہ فعالیتہٕ یا بہتری خاطرٕ چھ ضروری۔<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
       }
     },
+    "doi": {
+      "acceptAll": "सभनें गी मंजूर करो",
+      "accept": "मंजूर करो",
+      "decline": "सभनें गी रद्द करो",
+      "acceptSelected": "चुने गेदे गी मंजूर करो",
+      "ok": "सभनें गी मंजूर करो",
+      "consentNotice": {
+        "description": "अस तुंʼदी निजता दा सम्मान करदे आं अस जरूरी साइट कार्यक्षमता दे कन्नै-कन्नै मार्केटिंग, निजीकरण ते विश्लेषिकी गी सक्षम करने आस्तै कुकीज़ स्टोर करदे आं। \"सभनें गी मंजूर करो\" पर क्लिक करियै, तुस साड़ियां कुकीज़ दे इस्तेमाल आस्तै सैह्मती दिंदे ओ। तुस कुसै बी समें अपनी सेटिंग बदली सकदे ओ। कुकी नीति।",
+        "learnMore": "अनुकूलित करो",
+        "changeDescription": " "
+      },
+      "save": "मंजूर करो",
+      "consentModal": {
+        "title": "सहमति वरीयताएं गी अनुकूलित करो",
+        "description": "अस पेजें दे बिच्च कुशलता कन्नै नैविगेट करने च तुंʼदी मदद करने, तुंʼदी पसंदें गी स्टोर करने ते आमतौरा पर कुसै वैबसाइट दे तुंʼदे अनुभव गी सधारत करने आस्तै कुकीज़ दा इस्तेमाल करदे आं। हालां-के, अस तुंʼदे निजता दे हक्क गी मंजूर करदे आं ते इस करियै तुस किश किस्में दियें कुकीज़ गी इजाज़त नेईं देने दा विकल्प चुन सकदे ओ। मती जानकारी हासल करने ते अपनी डिफ़ॉल्ट सेटिंग्स गी बदलने आस्तै बक्ख-बक्ख वर्ग शीर्षकें पर क्लिक करो। कृपा करियै ध्यान देओ जे किश किस्में दियें कुकीज़ गी अवरुद्ध करना साइट दे तुंʼदे अनुभव गी प्रभावत करी सकदा ऐ।",
+        "buttons": {
+          "save": "मंजूर करो",
+          "acceptAll": "सभनें गी मंजूर करो",
+          "decline": "सभनें गी रद्द करो"
+        }
+      },
+      "poweredBy": "Powered by Seqrite",
+      "purposes": {},
+      "service": {
+        "disableAll": {
+          "description": "सभनें गी रद्द करो",
+          "title": "सभनें गी रद्द करो"
+        },
+        "optOut": {
+          "description": "Opt Out",
+          "title": "Opt Out"
+        }
+      },
+      "purposeItem": {
+        "service": "Cookie",
+        "services": "Cookies"
+      },
+      "contextualConsent": {
+        "description": "To show this content, we need your consent. Please accept the relevant cookies.",
+        "acceptOnce": "Accept once",
+        "acceptAlways": "Accept always"
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "एह् कुकीज वेबसाइट ट्रैफिक, उपयोगकर्ता बर्ताव ते जुड़ाव पैटर्न दा विश्लेशन करने च साडी मदद करदियां न। इकट्ठी कीती गेई अंतर्दृष्टि तुसें गी सामग्री गी अनुकूलत करने, उपयोगता बधाने ते समूचे साइट प्रदर्शन च सधार करने दी इजाज़त दिंदी ऐ।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga_89RWJTCPLZ</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div></div></details>"
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "इʼनें कुकीज़ दा उपयोग हमारे विज्ञापन भागीदारें आसेआ निजीकृत विज्ञापन देने ते मार्केटिंग अभियानें दी प्रभावशीलता गी नापने आस्तै कीता जंदा ऐ। ओह् उपयोगकर्ता दी दिलचस्पी ते ब्राउज़िंग बर्ताव दे अधार पर प्रासंगिक प्रचार प्रदान करने च मदद करदे न।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_fbp</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Facebook/Meta Pixel</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_gcl_au</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Ads</div></div></div></details>"
+      },
+      "others": {
+        "title": "Others",
+        "description": "इस वर्ग च कुकीज शामल न जेह्ड़े पूर्वपरिभाषित श्रेणियें च खरा नेईं उतरदे पर किश वैबसाइट कार्यक्षमताएं जां सधारें आस्तै लाजमी होई सकदे न।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
+      }
+    },
+    "ml": {
+      "acceptAll": "എല്ലാം സ്വീകരിക്കുക",
+      "accept": "സ്വീകരിക്കുക",
+      "decline": "എല്ലാം നിരസിക്കുക",
+      "acceptSelected": "തിരഞ്ഞെടുത്തവ സ്വീകരിക്കുക",
+      "ok": "എല്ലാം സ്വീകരിക്കുക",
+      "consentNotice": {
+        "description": "നിങ്ങളുടെ സ്വകാര്യതയെ ഞങ്ങൾ മാനിക്കുന്നു, അവശ്യ സൈറ്റ് പ്രവർത്തനക്ഷമത, മാർക്കറ്റിംഗ്, വ്യക്തിഗതമാക്കൽ, വിശകലനം എന്നിവ പ്രാപ്തമാക്കുന്നതിന് ഞങ്ങൾ കുക്കികൾ സംഭരിക്കുന്നു. \"എല്ലാം സ്വീകരിക്കുക\" ക്ലിക്കുചെയ്യുന്നതിലൂടെ, ഞങ്ങളുടെ കുക്കികളുടെ ഉപയോഗത്തിന് നിങ്ങൾ സമ്മതിക്കുന്നു. നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും നിങ്ങളുടെ ക്രമീകരണങ്ങൾ മാറ്റാം. കുക്കി നയം.",
+        "learnMore": "ഇഷ്ടാനുസൃതമാക്കുക",
+        "changeDescription": " "
+      },
+      "save": "സ്വീകരിക്കുക",
+      "consentModal": {
+        "title": "സമ്മത മുൻഗണനകൾ ഇഷ്ടാനുസൃതമാക്കുക",
+        "description": "പേജുകൾക്കിടയിൽ കാര്യക്ഷമമായി നാവിഗേറ്റ് ചെയ്യാനും നിങ്ങളുടെ മുൻഗണനകൾ സംഭരിക്കാനും സാധാരണയായി ഒരു വെബ്സൈറ്റിന്റെ അനുഭവം മെച്ചപ്പെടുത്താനും നിങ്ങളെ സഹായിക്കുന്നതിന് ഞങ്ങൾ കുക്കികൾ ഉപയോഗിക്കുന്നു. എന്നിരുന്നാലും, സ്വകാര്യതയ്ക്കുള്ള നിങ്ങളുടെ അവകാശം ഞങ്ങൾ അംഗീകരിക്കുന്നു, അതിനാൽ ചിലതരം കുക്കികൾ അനുവദിക്കരുതെന്ന് നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കാം. കൂടുതൽ അറിയാനും ഞങ്ങളുടെ സ്ഥിരസ്ഥിതി ക്രമീകരണങ്ങൾ മാറ്റാനും വ്യത്യസ്ത വിഭാഗ തലക്കെട്ടുകളിൽ ക്ലിക്കുചെയ്യുക. ചില തരത്തിലുള്ള കുക്കികൾ തടയുന്നത് സൈറ്റിലെ നിങ്ങളുടെ അനുഭവത്തെ ബാധിച്ചേക്കാമെന്നത് ശ്രദ്ധിക്കുക.",
+        "buttons": {
+          "save": "സ്വീകരിക്കുക",
+          "acceptAll": "എല്ലാം സ്വീകരിക്കുക",
+          "decline": "എല്ലാം നിരസിക്കുക"
+        }
+      },
+      "poweredBy": "Powered by Seqrite",
+      "purposes": {},
+      "service": {
+        "disableAll": {
+          "description": "എല്ലാം നിരസിക്കുക",
+          "title": "എല്ലാം നിരസിക്കുക"
+        },
+        "optOut": {
+          "description": "Opt Out",
+          "title": "Opt Out"
+        }
+      },
+      "purposeItem": {
+        "service": "Cookie",
+        "services": "Cookies"
+      },
+      "contextualConsent": {
+        "description": "To show this content, we need your consent. Please accept the relevant cookies.",
+        "acceptOnce": "Accept once",
+        "acceptAlways": "Accept always"
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "വെബ്സൈറ്റ് ട്രാഫിക്, ഉപയോക്തൃ പെരുമാറ്റം, ഇടപഴകൽ രീതികൾ എന്നിവ വിശകലനം ചെയ്യാൻ ഈ കുക്കികൾ ഞങ്ങളെ സഹായിക്കുന്നു. ശേഖരിച്ച ഉൾക്കാഴ്ചകൾ ഉള്ളടക്കം ഒപ്റ്റിമൈസ് ചെയ്യാനും ഉപയോഗക്ഷമത വർദ്ധിപ്പിക്കാനും മൊത്തത്തിലുള്ള സൈറ്റ് പ്രകടനം മെച്ചപ്പെടുത്താനും ഞങ്ങളെ അനുവദിക്കുന്നു.<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga_89RWJTCPLZ</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div></div></details>"
+      },
+      "marketing": {
+        "title": "Marketing",
+        "description": "വ്യക്തിഗതമാക്കിയ പരസ്യങ്ങൾ നൽകുന്നതിനും മാർക്കറ്റിംഗ് കാമ്പെയ്നുകളുടെ ഫലപ്രാപ്തി അളക്കുന്നതിനും ഞങ്ങളുടെ പരസ്യ പങ്കാളികൾ ഈ കുക്കികൾ ഉപയോഗിക്കുന്നു. ഉപയോക്തൃ താൽപ്പര്യങ്ങളും ബ്രൌസിംഗ് പെരുമാറ്റവും അടിസ്ഥാനമാക്കി പ്രസക്തമായ പ്രമോഷനുകൾ നൽകാൻ അവ സഹായിക്കുന്നു.<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_fbp</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Facebook/Meta Pixel</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_gcl_au</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Ads</div></div></div></details>"
+      },
+      "others": {
+        "title": "Others",
+        "description": "ഈ വിഭാഗത്തിൽ മുൻകൂട്ടി നിശ്ചയിച്ചിട്ടുള്ള വിഭാഗങ്ങളുമായി പൊരുത്തപ്പെടാത്തതും എന്നാൽ ചില വെബ്സൈറ്റ് പ്രവർത്തനങ്ങൾക്കോ മെച്ചപ്പെടുത്തലുകൾക്കോ ആവശ്യമായി വന്നേക്കാവുന്ന കുക്കികൾ ഉൾപ്പെടുന്നു.<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
+      }
+    },
     "mni": {
       "acceptAll": "ꯄꯨꯝꯅꯃꯛ ꯂꯧꯕꯤꯌꯨ",
       "accept": "ꯂꯧꯁꯤꯟꯕꯤꯌꯨ",
@@ -401,61 +511,6 @@ window.klaroConfig = {
       "others": {
         "title": "Others",
         "description": "اس زمرے میں کوکیز شامل ہیں جو پہلے سے طے شدہ زمروں میں فٹ نہیں ہوتی ہیں لیکن ویب سائٹ کی کچھ فعالیتوں یا بہتری کے لیے ضروری ہو سکتی ہیں۔<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
-      }
-    },
-    "brx": {
-      "acceptAll": "गासिबो नाजाव",
-      "accept": "नाजाव",
-      "decline": "गासिबोखौ नेवसि",
-      "acceptSelected": "सायख 'जानायखौ नाजाव",
-      "ok": "गासिबो नाजाव",
-      "consentNotice": {
-        "description": "जों नोंनि प्राइभेसिखौ मान होयो जों गोनांथार साइटनि खामानिजों लोगोसे मार्केटिं, गावारि खालामनाय आरो एनालाइटिक्स खालामनो थाखाय कुकिजखौ दोनथुमो। \"गासिबो नाजाव\" आव क्लिक खालामनानै, नों जोंनि कुकिफोरनि बाहायनायखौ गनायो। नोंथाङा जायखिजाया समावनो गावनि सेटिंसखौ सोलायनो हायो। कुकि पलिसि।",
-        "learnMore": "कास्टमाइज खालाम",
-        "changeDescription": " "
-      },
-      "save": "नाजाव",
-      "consentModal": {
-        "title": "गनायथि सायख 'नायफोरखौ कास्टमाइज खालाम",
-        "description": "जों नोंथांखौ पेजफोरनि गेजेराव मोजाङै नेभिगेट खालामनायाव मदद होनो, नोंथांनि गोसो जानायफोरखौ दोनथुमनो आरो सरासनस्रायै नोंथांनि वेबसाइटनि रोंमोनदांथिखौ साबसिन खालामनो थाखाय कुकिफोरखौ बाहायो। जिखिजायामानो, जों नोंनि गावारि मोन्थाइखौ गनायो आरो बेनिखायनो नों माखासे रोखोमनि कुकिसखौ गनायथि होनाङा सायख 'नो हायो। बांसिन मिथिनो आरो जोंनि दिफल्ट सेटिंसखौ सोलायनो थाखाय गुबुन गुबुन थाखोनि हेडिंफोराव क्लिक खालाम। अन्नानै नोजोर हो दि माखासे रोखोमनि कुकिफोरखौ बन्द खालामनाया साइटनि नोंनि रोंमोनदांथिखौ गोहोम खोख्लैनो हागौ।",
-        "buttons": {
-          "save": "नाजाव",
-          "acceptAll": "गासिबो नाजाव",
-          "decline": "गासिबोखौ नेवसि"
-        }
-      },
-      "poweredBy": "Powered by Seqrite",
-      "purposes": {},
-      "service": {
-        "disableAll": {
-          "description": "गासिबोखौ नेवसि",
-          "title": "गासिबोखौ नेवसि"
-        },
-        "optOut": {
-          "description": "Opt Out",
-          "title": "Opt Out"
-        }
-      },
-      "purposeItem": {
-        "service": "Cookie",
-        "services": "Cookies"
-      },
-      "contextualConsent": {
-        "description": "To show this content, we need your consent. Please accept the relevant cookies.",
-        "acceptOnce": "Accept once",
-        "acceptAlways": "Accept always"
-      },
-      "analytics": {
-        "title": "Analytics",
-        "description": "बे कुकिफोरा जोंनो वेबसाइट ट्राफिक, बाहायगिरिनि आखु आरो मावसोमनाय महरफोरखौ बिजिरनायाव मदद खालामो। बुथुमनाय मोनदांथिफोरा जोंनो आयदाफोरखौ साबसिन खालामनो, बाहायजाथावखौ बांहोनो आरो गासै साइट दिन्थिफुंनायखौ जौगाहोनो गनायथि होयो।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga_89RWJTCPLZ</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div></div></details>"
-      },
-      "marketing": {
-        "title": "Marketing",
-        "description": "बे कुकिफोरखौ जोंनि फोसावथाइ बाहागोआरिफ्रा गावारि फोसावथाइ होनो आरो फोसावथाइ फोसावथायनि गोहोमखौ जखा खालामनो बाहायो। बिसोर बाहायगिरिनि गोसो जानाय आरो ब्राउजिं आखुथायनि सायाव बिथा खालामनानै सोमोन्दो गोनां फोसावथायफोर जगायनो हेफाजाब होयो।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_fbp</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Facebook/Meta Pixel</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_gcl_au</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Ads</div></div></div></details>"
-      },
-      "others": {
-        "title": "Others",
-        "description": "बे थाखोआ बै कुकिफोरखौ लाफायो जाय सिगां थि खालामनाय थाखोफोराव थाङा नाथाय माखासे वेबसाइटनि खामानि एबा जौगाथायनि थाखाय गोनां जानो हागौ।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
       }
     },
     "mr": {
@@ -1282,116 +1337,6 @@ window.klaroConfig = {
         "title": "Others",
         "description": "هن ڪيٽيگري ۾ اهڙيون ڪوڪيز شامل آهن جيڪي اڳواٽ بيان ڪيل ڪيٽيگريز ۾ نه ٿيون اچن پر ڪجهه ويب سائيٽ جي ڪارڪردگي يا بهتري لاءِ ضروري ٿي سگهن ٿيون.<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
       }
-    },
-    "doi": {
-      "acceptAll": "सब स्वीकार करो",
-      "accept": "मंजूर करो",
-      "decline": "सब को खारिज कर दे",
-      "acceptSelected": "चयनित स्वीकार करना",
-      "ok": "सब स्वीकार करो",
-      "consentNotice": {
-        "description": "अस तुंदी गोपनीयता दा आदर करने आं अस कुकीज़ गी संग्रहीत करदे आं तां जे जरूरी साइट दी कार्यक्षमता गी सक्षम बनाया जाई सकै, ते कन्नै गै मार्केटिंग, निजीकरण ते विश्लेषण बी। &quot;सभनें गी स्वीकार करो&quot; पर क्लिक करियै, तुस कुकीज़ दे साढ़े इस्तेमाल लेई सहमति दिंदे ओ। तुस कुसै बी समें उप्पर अपनी सेटिंग्स बदली सकदे ओ। कुकी नीति।",
-        "learnMore": "अनुकूलित करो",
-        "changeDescription": " "
-      },
-      "save": "मंजूर करो",
-      "consentModal": {
-        "title": "सहमति प्राथमिकताएं गी अनुकूलित करो",
-        "description": "अस कुकीज़ दा इस्तेमाल तुसेंगी पन्नें दे बिच्च कुशलता कन्नै नेविगेट करने, तुंदी पसंद गी संग्रहीत करने ते आमतौर पर कुसै वेबसाइट दे तुंदे अनुभव गी बेहतर बनाने च मदद करने आस्तै करदे आं। हालांकि, अस तुंदे गोपनीयता दे अधिकार गी स्वीकार करने आं ते इसलेई तुस किश किस्म दे कुकीज़ दी अनुमति नेईं देने दा विकल्प चुन सकदे ओ। होर जानने लेई ते साढ़ी डिफाल्ट सेटिंग्स बदलने लेई बक्ख-बक्ख श्रेणी हेडिंगें पर क्लिक करो। कृपा करियै ध्यान देओ जे किश किस्म दे कुकीज़ गी ब्लॉक करने कन्नै साइट दे तुंदे अनुभव गी प्रभावित करी सकदा ऐ।",
-        "buttons": {
-          "save": "मंजूर करो",
-          "acceptAll": "सब स्वीकार करो",
-          "decline": "सब को खारिज कर दे"
-        }
-      },
-      "poweredBy": "Powered by Seqrite",
-      "purposes": {},
-      "service": {
-        "disableAll": {
-          "description": "सब को खारिज कर दे",
-          "title": "सब को खारिज कर दे"
-        },
-        "optOut": {
-          "description": "Opt Out",
-          "title": "Opt Out"
-        }
-      },
-      "purposeItem": {
-        "service": "Cookie",
-        "services": "Cookies"
-      },
-      "contextualConsent": {
-        "description": "To show this content, we need your consent. Please accept the relevant cookies.",
-        "acceptOnce": "Accept once",
-        "acceptAlways": "Accept always"
-      },
-      "analytics": {
-        "title": "Analytics",
-        "description": "एह् कुकीज़ असेंगी वेबसाइट ट्रैफिक, बरतूनी व्यवहार, ते रूज्झे दे पैटर्न दा विश्लेषण करने च मदद करदियां न। इकट्ठी कीती गेदी अंतर्दृष्टि असेंगी सामग्री गी अनुकूल बनाने, उपयोगिता गी बधाने ते समग्र साइट दे प्रदर्शन च सुधार करने दी अनुमति दिंदी ऐ।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga_89RWJTCPLZ</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div></div></details>"
-      },
-      "marketing": {
-        "title": "Marketing",
-        "description": "इनें कुकीज़ दा इस्तेमाल साढ़े विज्ञापन साझेदारें आसेआ निजीकृत विज्ञापन देने ते विपणन अभियानें दी प्रभावशीलता गी मापने लेई कीता जंदा ऐ। एह् बरतूनी दी रुचि ते ब्राउज़िंग व्यवहार दे आधार उप्पर प्रासंगिक प्रचार देने च मदद करदे न।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_fbp</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Facebook/Meta Pixel</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_gcl_au</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Ads</div></div></div></details>"
-      },
-      "others": {
-        "title": "Others",
-        "description": "इस श्रेणी च कुकीज़ शामल न जेह् ड़ियां पैह् ले थमां गै परिभाशत श्रेणियें च फिट नेईं होंदियां न पर किश वेबसाइटें दी कार्यक्षमताएं जां सुधारें लेई जरूरी होई सकदियां न।<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
-      }
-    },
-    "ms": {
-      "acceptAll": "Terima semua",
-      "accept": "Terima",
-      "decline": "Tolak Semua",
-      "acceptSelected": "Terima Dipilih",
-      "ok": "Terima Semua",
-      "consentNotice": {
-        "description": "Kami menghormati privasi anda. Kami menyimpan kuki untuk mendayakan fungsi penting laman web, serta pemasaran, pemperibadian dan analitik. Dengan mengklik “Terima Semua”, anda bersetuju dengan penggunaan kuki kami. Anda boleh menukar tetapan anda pada bila-bila masa. Dasar Kuki.",
-        "learnMore": "Sesuaikan",
-        "changeDescription": " "
-      },
-      "save": "Terima",
-      "consentModal": {
-        "title": "Sesuaikan Keutamaan Persetujuan",
-        "description": "Kami menggunakan kuki untuk membantu anda menavigasi antara halaman dengan cekap, menyimpan pilihan anda dan secara amnya meningkatkan pengalaman anda di laman web. Walau bagaimanapun, kami mengakui hak privasi anda dan oleh itu anda boleh memilih untuk tidak membenarkan beberapa jenis kuki. Klik pada tajuk kategori yang berbeza untuk mengetahui lebih lanjut dan menukar tetapan lalai kami. Sila ambil perhatian bahawa menyekat jenis kuki tertentu mungkin menjejaskan pengalaman anda di laman web.",
-        "buttons": {
-          "save": "Terima",
-          "acceptAll": "Terima semua",
-          "decline": "Tolak Semua"
-        }
-      },
-      "poweredBy": "Powered by Seqrite",
-      "purposes": {},
-      "service": {
-        "disableAll": {
-          "description": "Tolak Semua",
-          "title": "Tolak Semua"
-        },
-        "optOut": {
-          "description": "Opt Out",
-          "title": "Opt Out"
-        }
-      },
-      "purposeItem": {
-        "service": "Cookie",
-        "services": "Cookies"
-      },
-      "contextualConsent": {
-        "description": "To show this content, we need your consent. Please accept the relevant cookies.",
-        "acceptOnce": "Accept once",
-        "acceptAlways": "Accept always"
-      },
-      "analytics": {
-        "title": "Analytics",
-        "description": "Kuki ini membantu kami menganalisis trafik laman web, tingkah laku pengguna dan corak penglibatan. Wawasan yang dikumpul membolehkan kami mengoptimumkan kandungan, meningkatkan kebolehgunaan dan meningkatkan prestasi keseluruhan laman web.<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga_89RWJTCPLZ</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div></div></details>"
-      },
-      "marketing": {
-        "title": "Marketing",
-        "description": "Kuki ini digunakan oleh rakan kongsi pengiklanan kami untuk menyampaikan iklan yang diperibadikan dan mengukur keberkesanan kempen pemasaran. Kuki ini membantu menyediakan promosi yang berkaitan berdasarkan minat pengguna dan tingkah laku melayari.<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_fbp</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Facebook/Meta Pixel</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_gcl_au</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Ads</div></div></div></details>"
-      },
-      "others": {
-        "title": "Others",
-        "description": "Kategori ini termasuk kuki yang tidak termasuk dalam kategori yang telah ditetapkan tetapi mungkin diperlukan untuk fungsi atau penambahbaikan laman web tertentu.<details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>"
-      }
     }
   },
   "styling": {
@@ -1416,7 +1361,7 @@ window.klaroConfig = {
       "description": "<p>These cookies help us analyze website traffic, user behavior, and engagement patterns. The insights gathered allow us to optimize content, enhance usability, and improve overall site performance. </p><details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_ga_89RWJTCPLZ</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Analytics</div></div></div></details>",
       "purposes": [],
       "required": false,
-      "default": false,
+      "default": true,
       "optOut": false,
       "onlyOnce": true,
       "cookies": [
@@ -1430,7 +1375,7 @@ window.klaroConfig = {
       "description": "<p>These cookies are used by our advertising partners to deliver personalized ads and measure the effectiveness of marketing campaigns. They help provide relevant promotions based on user interests and browsing behavior. </p><details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_fbp</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Facebook/Meta Pixel</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;_gcl_au</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Google Ads</div></div></div></details>",
       "purposes": [],
       "required": false,
-      "default": false,
+      "default": true,
       "optOut": false,
       "onlyOnce": true,
       "cookies": [
@@ -1444,7 +1389,7 @@ window.klaroConfig = {
       "description": "<p>This category includes cookies that do not fit into the predefined categories but may be necessary for certain website functionalities or improvements.</p><details style=\"margin-top:10px\"><summary style=\"cursor:pointer;font-weight:600;padding:2px 0\">2 Cookies</summary><div style=\"margin-top:6px;max-height:150px;overflow-y:auto\"><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;https://cookie-consent-enforcementqa.netlify.app/</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div><div style=\"padding:5px 0;border-bottom:1px solid rgba(0,0,0,0.07);font-size:12px;line-height:1.8\"><div><b>Name:</b>&nbsp;marketing_id</div><div><b>Host:</b>&nbsp;cookie-consent-enforcementqa.netlify.app</div><div><b>Service:</b>&nbsp;Other Cookies</div></div></div></details>",
       "purposes": [],
       "required": false,
-      "default": false,
+      "default": true,
       "optOut": false,
       "onlyOnce": true,
       "cookies": [
